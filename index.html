@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="master.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <title>Project</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="left">
+      <div class="sidebar">
+        <span class="openbtn" style="font-size:30px;" onclick="openNav()"><img class="icon" src="menu.svg" alt=""> </span>
+        <div id="mySidenav" class="sidenav">
+          <a href="" class="closebtn" onclick="closeNav()">&times;</a>
+          <a class="sp" href=""><span>About</span></a>
+          <a href=""><span>Services</span></a>
+          <a href=""><span>Cuisine</span></a>
+          <a href=""><span>Gallery</span></a>
+          <a href=""><span>Contact</span></a>
+          <a href=""><span>Book</span></a>
+        </div>
+        <div class="head">
+          Lorem <span class="hide">ipsum.</span>
+        </div>
+        <div class="cart">
+          <p class="cart-btn hide">Cart</p>
+          <img class="icon" src="noun_cart_1445042.svg" alt="">
+        </div>
+      </div>
+
+
+    </div>
+    <div class="right">
+      <div class="heading">What are you having for Lunch?</div>
+      <div class="para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias vitae, minima amet praesentium consectetur</p>
+        <hr>
+      </div>
+      <div class="content">
+        <div class="card">
+          <div class="card-body">
+            <div>
+              <img class="card-img" src="https://imgk.timesnownews.com/story/chad-montano-lP5MCM6nZ5A-unsplash.jpg?tr=w-600,h-450,fo-auto" alt="">
+            </div>
+            <div class="card-content">
+              Mexican Taco
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div>
+              <img class="card-img" src="https://res.cloudinary.com/purnesh/image/upload/w_1000,f_auto,q_auto:eco,c_limit/61605866549929.jpg" alt="">
+            </div>
+            <div class="card-content">
+              Farmhouse Pizza
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div>
+              <img class="card-img" src="https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2020/05/ground-chicken-burger.jpg" alt="">
+            </div>
+            <div class="card-content">
+              Chicken Burger
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div>
+              <img class="card-img" src="https://static.toiimg.com/thumb/55046506.cms?imgsize=335771&width=509&height=340" alt="">
+            </div>
+            <div class="card-content">
+              Loaded Nachos
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div>
+              <img class="card-img" src="https://i.pinimg.com/originals/f3/31/8b/f3318b55f8c1e4453d841dd704cdbaa5.jpg" alt="">
+            </div>
+            <div class="card-content">
+              Hakka Noodles
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100vw";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</body>
+
+</html>
